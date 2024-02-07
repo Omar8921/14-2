@@ -1,0 +1,47 @@
+#no-button{
+    height: 50px;
+    width: 70px;
+    position: absolute;
+    transition: top 0.5s, right 0.5s;
+}
+
+h1{
+    text-align: center;
+}
+#yes-button{
+    height: 50px;
+    width: 70px;
+    position: absolute;
+    left: 42%;
+}
+
+button{
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 0, 0);
+    background-color: rgb(240, 116, 116);
+    font-family: 'Roboto Slab', serif;
+
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#buttons-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 640px;
+    width: 1360px;
+}
+
+body{
+    border: 3px palevioletred solid;
+    margin: 0;
+    color: rgb(255, 0, 0);
+    font-weight: 800;
+    font-family: 'Roboto Slab', serif;
+    -webkit-text-stroke-width: 0.1px;
+    font-size: 20px;
+}
